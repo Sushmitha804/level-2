@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Authentication</title>
+  <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+  <div class="container" id="authContainer">
+    <h2>Register</h2>
+    <input type="text" id="regUsername" placeholder="Username">
+    <input type="password" id="regPassword" placeholder="Password">
+    <button onclick="register()">Register</button>
+
+    <h2>Login</h2>
+    <input type="text" id="loginUsername" placeholder="Username">
+    <input type="password" id="loginPassword" placeholder="Password">
+    <button onclick="login()">Login</button>
+  </div>
+
+  <div class="container" id="securePage" style="display:none;">
+    <h2>Welcome to the secured page!</h2>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <script src="script5.js"></script>
+</body>
+</html>
